@@ -1,1 +1,4 @@
-# Welcome to the best nvim config :)
+toms first nvim config
+
+# DEPENDANCIES:
+* lazy.nvim
