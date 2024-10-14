@@ -1,6 +1,11 @@
 -- Theme
 vim.cmd("colorscheme rose-pine")
 
+
+-- EDITOR --
+
+vim.wo.relativenumber = true
+
 -- KEYBINDINGS -- 
 vim.keymap.set("n", "<leader>fw", "<cmd>w<cr>", { silent = true, desc = "Write" })
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)  
