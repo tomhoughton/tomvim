@@ -16,3 +16,6 @@ vim.keymap.set("n", "<leader>ff", telebuiltin.find_files, { desc = "Telescope fi
 vim.keymap.set("n", "<leader>fg", telebuiltin.live_grep, { desc = "Telescope live grep" })
 vim.keymap.set("n", "<leader>fb", telebuiltin.buffers, { desc = "Telescope buffers" })
 vim.keymap.set("n", "<leader>fh", telebuiltin.help_tags, { desc = "Telescope help tags" })
+
+-- telescope file browser:
+vim.keymap.set("n", "<leader>fe", ":Telescope file_browser path=%:p:h select_buffer=true<CR>")
