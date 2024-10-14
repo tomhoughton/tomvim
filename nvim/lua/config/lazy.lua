@@ -21,6 +21,10 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- vim.keymap.set("n", "<leader>fw", "<cmd>w<cr>", { silent = true, desc =  "Write" })
+
+-- vim.keymap.set(mode, lhs, rhs, { silent = true, desc = desc })
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
@@ -33,3 +37,4 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
+
